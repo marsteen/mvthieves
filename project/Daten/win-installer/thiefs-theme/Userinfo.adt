@@ -1,0 +1,146 @@
+﻿<dialog style-ex="0" id="6" version="1" style="-1865938816" flags="0">
+  <variables />
+  <font size="8" name="MS Sans Serif" flags="0" />
+  <position x="0" y="0" index="4" height="476" width="640" />
+  <text associated-string-id="63" />
+  <controls>
+    <control style-ex="0" color="#ffffff" type="static" id="58" extra-flags="0" style="1342177280" sub-type="2" bk-color="#3d66ab" flags="0" image="">
+      <position x="164" y="62" height="349" width="472" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="53" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="main image.bmp">
+      <position x="0" y="62" height="349" width="164" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="59" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="button bottom.bmp">
+      <position x="0" y="411" height="48" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="3" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="337" y="421" height="23" width="75" />
+      <text associated-string-id="0" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="1" extra-flags="0" style="1342242817" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="419" y="421" height="23" width="75" />
+      <text associated-string-id="4" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="2" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="544" y="421" height="23" width="78" />
+      <text associated-string-id="2" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="60" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="vertical line.bmp">
+      <position x="176" y="90" height="290" width="1" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Static" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="51" extra-flags="0" style="1342177280" sub-type="2" bk-color="#003370" flags="0" image="">
+      <position x="0" y="0" height="61" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="45" extra-flags="0" style="1342177280" sub-type="0" bk-color="#003370" flags="0" image="">
+      <position x="40" y="23" height="26" width="565" />
+      <text associated-string-id="64" />
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="11" extra-flags="0" style="1342177280" sub-type="0" bk-color="#3d66ab" flags="0" image="">
+      <position x="207" y="172" height="15" width="100" />
+      <text associated-string-id="67" />
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="edit" id="20" extra-flags="0" style="1342177408" sub-type="0" bk-color="COLOR_WINDOW" flags="0" image="">
+      <position x="231" y="134" height="21" width="315" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="edit" id="21" extra-flags="0" style="1342177408" sub-type="0" bk-color="COLOR_WINDOW" flags="0" image="">
+      <position x="231" y="189" height="21" width="315" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="edit" id="22" extra-flags="0" style="1342177408" sub-type="0" bk-color="COLOR_WINDOW" flags="0" image="">
+      <position x="231" y="245" height="21" width="315" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="edit" id="23" extra-flags="0" style="1342177408" sub-type="0" bk-color="COLOR_WINDOW" flags="0" image="">
+      <position x="231" y="246" height="21" width="95" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="edit" id="24" extra-flags="0" style="1342177408" sub-type="0" bk-color="COLOR_WINDOW" flags="0" image="">
+      <position x="341" y="246" height="21" width="95" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="edit" id="25" extra-flags="0" style="1342177408" sub-type="0" bk-color="COLOR_WINDOW" flags="0" image="">
+      <position x="450" y="246" height="21" width="95" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="31" extra-flags="1" style="1342177280" sub-type="0" bk-color="#3d66ab" flags="0" image="">
+      <position x="331" y="248" height="15" width="10" />
+      <text associated-string-id="-1">
+        <translation language="1" text="-" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="32" extra-flags="1" style="1342177280" sub-type="0" bk-color="#3d66ab" flags="0" image="">
+      <position x="440" y="248" height="15" width="8" />
+      <text associated-string-id="-1">
+        <translation language="1" text="-" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="55" extra-flags="1" style="1342177280" sub-type="0" bk-color="#003370" flags="0" image="">
+      <position x="18" y="5" height="15" width="171" />
+      <text associated-string-id="-1">
+        <translation language="1" text="User information" />
+        <translation language="2" text="Käyttäjätiedot" />
+        <translation language="3" text="Información del usuario" />
+        <translation language="1045" text="Informacje o użytkowniku" />
+        <translation language="4" text="Benutzeinformationen" />
+        <translation language="5" text="Information d'utilisateur" />
+        <translation language="6" text="Informazioni Utente" />
+        <translation language="46" text="Användar information" />
+        <translation language="31" text="Gebruiker informatie" />
+        <translation language="10" text="Πληροφορίες χρήστη" />
+        <translation language="102" text="Kullanıcı bilgisi" />
+        <translation language="1038" text="Felhasználó adatai" />
+        <translation language="11" text="Informações do usuário" />
+        <translation language="12" text="Інформація про користувача" />
+        <translation language="14" text="Korisnicke informacije" />
+        <translation language="16" text="Информация о пользователе" />
+        <translation language="45" text="Brugerinformation" />
+        <translation language="86" text="用户信息" />
+        <translation language="1000" text="Informatii despre utilizator" />
+        <translation language="15" text="Brugerinformation" />
+        <translation language="8" text="Informácie o užívateľovi" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="12" extra-flags="0" style="1342177280" sub-type="0" bk-color="#3d66ab" flags="0" image="">
+      <position x="207" y="228" height="15" width="100" />
+      <text associated-string-id="68" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="52" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="horizontal line.bmp">
+      <position x="0" y="60" height="2" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Static" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="10" extra-flags="0" style="1342177280" sub-type="0" bk-color="#3d66ab" flags="0" image="">
+      <position x="207" y="118" height="15" width="100" />
+      <text associated-string-id="66" />
+    </control>
+  </controls>
+</dialog>

@@ -1,0 +1,43 @@
+#ifndef CFixpointT_HPP
+#define CFixpointT_HPP
+
+//typedef __int64 Tfixtype;
+typedef long long Tfixtype;
+
+template<int Tbits>
+inline CFixpointT<Tbits> CFixpointT<Tbits>::operator*(const CFixpointT<Tbits> z)
+{
+    CFixpointT<Tbits> v;
+
+    v.value = (Tfixtype(value) * z.value) >> Tbits;
+    return v;
+}
+
+
+template<int Tbits>
+inline CFixpointT<Tbits> CFixpointT<Tbits>::operator/(const CFixpointT<Tbits> z)
+{
+    CFixpointT<Tbits> v;
+
+    v.value = (Tfixtype(value) << Tbits) / z.value;
+    return v;
+}
+
+
+template<int Tbits>
+inline CFixpointT<Tbits>& CFixpointT<Tbits>::operator*=(const CFixpointT<Tbits> z)
+{
+    value = (Tfixtype(value) * z.value) >> Tbits;
+    return *this;
+}
+
+
+template<int Tbits>
+inline CFixpointT<Tbits>& CFixpointT<Tbits>::operator/=(const CFixpointT<Tbits> z)
+{
+    value = (Tfixtype(value) << Tbits) / z.value;
+    return *this;
+}
+
+
+#endif

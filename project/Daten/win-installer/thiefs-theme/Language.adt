@@ -1,0 +1,74 @@
+﻿<dialog style-ex="0" id="1" version="1" style="-1865938816" flags="0">
+  <variables />
+  <font size="8" name="MS Sans Serif" flags="0" />
+  <position x="0" y="0" index="4" height="476" width="640" />
+  <text associated-string-id="-1">
+    <translation language="1" text="Language " />
+  </text>
+  <controls>
+    <control style-ex="0" color="#ffffff" type="static" id="58" extra-flags="0" style="1342177280" sub-type="2" bk-color="#3d66ab" flags="0" image="">
+      <position x="164" y="62" height="349" width="472" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="59" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="button bottom.bmp">
+      <position x="0" y="411" height="48" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="30" extra-flags="0" style="1342177280" sub-type="0" bk-color="#3d66ab" flags="0" image="">
+      <position x="200" y="97" height="30" width="400" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Please select the language that you would like to use during the installation." />
+      </text>
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="listbox" id="10" extra-flags="0" style="1344274689" sub-type="0" bk-color="COLOR_WINDOW" flags="0" image="">
+      <position x="200" y="135" height="194" width="400" />
+      <text associated-string-id="-1" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="3" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="337" y="421" height="23" width="75" />
+      <text associated-string-id="0" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="1" extra-flags="0" style="1342242817" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="419" y="421" height="23" width="75" />
+      <text associated-string-id="4" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="2" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="544" y="421" height="23" width="78" />
+      <text associated-string-id="2" />
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="51" extra-flags="0" style="1342177280" sub-type="2" bk-color="#003370" flags="0" image="">
+      <position x="0" y="0" height="61" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="52" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="horizontal line.bmp">
+      <position x="0" y="60" height="2" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Static" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="60" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="vertical line.bmp">
+      <position x="176" y="90" height="290" width="1" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Static" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="55" extra-flags="1" style="1342177280" sub-type="0" bk-color="#003370" flags="0" image="">
+      <position x="18" y="5" height="15" width="228" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Choose Language" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="53" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="main image.bmp">
+      <position x="0" y="62" height="349" width="164" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+  </controls>
+</dialog>

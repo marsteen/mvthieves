@@ -1,0 +1,57 @@
+//---------------------------------------------------------------------------
+//
+// PROJECT : Die Planeten
+//
+//
+// AUTOR   : Martin Steen
+//           email: martin@martin-steen.de
+//
+//
+//----------------------------------------------------------------------------
+
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
+#include <iostream>
+using namespace std;
+
+#include <CVector3T.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <GL/glut.h>
+#include <CGL_Object.h>
+#include <CGL_Circle.h>
+#include <math.h>
+
+#if 1
+void CGL_Circle::MakeObject()
+{
+    CVector3<float> CirclePoint;
+    CVector3<float> Normal;
+    float Alpha = 0;
+    float AlphaPlus = DEG_TO_RAD(360.0 / mSegments);
+
+    CirclePoint.x = mRadius + mOrigin.x;
+    CirclePoint.y = 0;
+    CirclePoint.z = mOrigin.z;
+
+    glPushMatrix();
+    glRotatef(90.0, 1.0, 0.0, 0.0);
+
+    glBegin(GL_LINE_STRIP);
+    for (int i = 0; i <= mSegments; i++)
+    {
+        CirclePoint.x = (cos(Alpha) * mRadius) + mOrigin.x;
+        CirclePoint.y = (sin(Alpha) * mRadius) + mOrigin.y;
+
+        glVertex3fv(CirclePoint.v());
+        Alpha += AlphaPlus;
+    }
+    glEnd();
+
+    glPopMatrix();
+}
+
+
+#endif

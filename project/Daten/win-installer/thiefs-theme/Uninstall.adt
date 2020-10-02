@@ -1,0 +1,314 @@
+﻿<dialog style-ex="0" id="14" version="1" style="-1865938816" flags="0">
+  <variables />
+  <font size="8" name="MS Sans Serif" flags="0" />
+  <position x="0" y="0" index="4" height="476" width="640" />
+  <text associated-string-id="-1">
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Программа удаления" />
+    <translation language="1" text="De-installatie" />
+    <translation language="1" text="Afinstallation" />
+    <translation language="1" text="Видалення програми" />
+    <translation language="1" text="卸载" />
+    <translation language="1" text="Uninstall" />
+    <translation language="1" text="Afinstallering" />
+    <translation language="1" text="Odinstalovat" />
+    <translation language="1" text="Odinštalácia" />
+  </text>
+  <controls>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="51" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="C:\MinGW\home\Martin\thiefs\Daten\win-installer\installer.bmp">
+      <position x="0" y="0" height="412" width="639" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Label" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="59" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="button bottom.bmp">
+      <position x="0" y="411" height="48" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="55" extra-flags="0" style="1476460545" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="528" y="421" height="23" width="90" />
+      <text associated-string-id="-1">
+        <translation language="31" text="&amp;Close" />
+        <translation language="1" text="&amp;Close" />
+        <translation language="2" text="&amp;Sulje" />
+        <translation language="5" text="&amp;Fermer" />
+        <translation language="4" text="&amp;Schliessen" />
+        <translation language="10" text="&amp;Close" />
+        <translation language="1038" text="&amp;Bezárás" />
+        <translation language="6" text="&amp;Close" />
+        <translation language="1045" text="&amp;Close" />
+        <translation language="11" text="&amp;Fechar" />
+        <translation language="14" text="&amp;Close" />
+        <translation language="3" text="&amp;Cerrar" />
+        <translation language="46" text="&amp;Close" />
+        <translation language="102" text="&amp;Close" />
+        <translation language="12" text="&amp;Закрити" />
+        <translation language="16" text="&amp;Выход" />
+        <translation language="45" text="&amp;Afslut" />
+        <translation language="86" text="关闭(&amp;C)" />
+        <translation language="1000" text="&amp;Inchide" />
+        <translation language="9" text="&amp;Zavřít" />
+        <translation language="8" text="&amp;Zavrieť" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="54" extra-flags="0" style="1476460544" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="387" y="421" height="23" width="90" />
+      <text associated-string-id="-1">
+        <translation language="31" text="&amp;Details..." />
+        <translation language="1" text="&amp;Details..." />
+        <translation language="2" text="&amp;Lisätietoja..." />
+        <translation language="5" text="&amp;D�&#169;tails..." />
+        <translation language="4" text="&amp;Details..." />
+        <translation language="10" text="&amp;Details..." />
+        <translation language="1038" text="&amp;R�&#169;szletek..." />
+        <translation language="6" text="&amp;Details..." />
+        <translation language="1045" text="&amp;Details..." />
+        <translation language="11" text="&amp;Detalhes..." />
+        <translation language="14" text="&amp;Details..." />
+        <translation language="3" text="&amp;Detalles..." />
+        <translation language="46" text="&amp;Details..." />
+        <translation language="102" text="&amp;Details..." />
+        <translation language="12" text="&amp;Подробиці..." />
+        <translation language="16" text="&amp;Подробно..." />
+        <translation language="45" text="&amp;Detaljer..." />
+        <translation language="86" text="详细资料(&amp;D)..." />
+        <translation language="1000" text="&amp;Detalii..." />
+        <translation language="9" text="&amp;Podrobnosti..." />
+        <translation language="8" text="&amp;Detajly..." />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="56" extra-flags="1" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="18" y="5" height="15" width="160" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Uninstallation" />
+        <translation language="2" text="Ohjelman poisto" />
+        <translation language="5" text="Désinstallation" />
+        <translation language="4" text="Deinstallation" />
+        <translation language="11" text="Desinstalação" />
+        <translation language="1038" text="Eltávolítás" />
+        <translation language="3" text="Desinstalación" />
+        <translation language="16" text="Удаление приложения" />
+        <translation language="31" text="De-installatie" />
+        <translation language="45" text="Afinstallation" />
+        <translation language="12" text="Видалення програми" />
+        <translation language="86" text="卸载" />
+        <translation language="1000" text="Dezinstalare" />
+        <translation language="15" text="Afinstallering" />
+        <translation language="9" text="Odinstalace" />
+        <translation language="8" text="Odinštalácia" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="57" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="200" y="98" height="15" width="390" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Removing %s, please wait..." />
+        <translation language="2" text="Poistetaan %s. Ole hyvä ja odota..." />
+        <translation language="5" text="Suppression de %s, veuillez patienter" />
+        <translation language="4" text="Löschen von %s, bitte warten" />
+        <translation language="11" text="Removendo %s, aguarde" />
+        <translation language="1038" text="%s eltávolítás alatt. Kis türelmet." />
+        <translation language="3" text="Removiendo %s, espere por favor..." />
+        <translation language="16" text="Приложение &quot;%s&quot; удаляется, пожалуйста, подождите..." />
+        <translation language="31" text="%s wordt verwijderd, een moment geduld....." />
+        <translation language="45" text="Fjerner %s, vent venligst..." />
+        <translation language="12" text="Видалення %s, будь ласка чекайте..." />
+        <translation language="86" text="正在删除%s, 请稍候..." />
+        <translation language="1000" text="Se sterge %s, va rugam asteptati..." />
+        <translation language="15" text="Fjerner %s, vent venligst..." />
+        <translation language="9" text="Odebírám %s, vyčkejte..." />
+        <translation language="8" text="Odstraňujem %s, čakajte prosím..." />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="61" extra-flags="0" style="1342177280" sub-type="3" bk-color="#000000" flags="0" image="check.ico">
+      <position x="210" y="128" height="32" width="32" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="62" extra-flags="0" style="1342177280" sub-type="3" bk-color="#000000" flags="0" image="check.ico">
+      <position x="210" y="166" height="32" width="32" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="63" extra-flags="0" style="1342177280" sub-type="3" bk-color="#000000" flags="0" image="check.ico">
+      <position x="210" y="204" height="32" width="32" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="64" extra-flags="0" style="1342177280" sub-type="3" bk-color="#000000" flags="0" image="check.ico">
+      <position x="210" y="242" height="32" width="32" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="65" extra-flags="0" style="1342177280" sub-type="3" bk-color="#000000" flags="0" image="check.ico">
+      <position x="210" y="281" height="32" width="32" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="66" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="248" y="136" height="15" width="330" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Removing shared files" />
+        <translation language="2" text="Poistetaan jaettuja tiedostoja" />
+        <translation language="5" text="Suppression des fichiers partagés" />
+        <translation language="4" text="Löschen von shared files" />
+        <translation language="11" text="Removendo arquivos compartilhados" />
+        <translation language="1038" text="Megosztott fájlok eltávolítása" />
+        <translation language="3" text="Removiendo ficheros compartidos" />
+        <translation language="16" text="Удаление файлов общего пользования" />
+        <translation language="31" text="Gedeelde bestanden worden verwijderd" />
+        <translation language="45" text="Fjerner delte filer" />
+        <translation language="12" text="Видалення спільних файлів" />
+        <translation language="86" text="正在删除共享文件" />
+        <translation language="1000" text="Stergere file partajate" />
+        <translation language="15" text="Fjerner delte filer" />
+        <translation language="9" text="Odebírám sdílené soubory" />
+        <translation language="8" text="Odstraňujem zdieľané súbory" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="67" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="248" y="174" height="15" width="330" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Restoring backup files" />
+        <translation language="2" text="Palautetaan varmuuskopioita" />
+        <translation language="5" text="Restauration des fichiers de sauvegarde" />
+        <translation language="4" text="Einspielen von backup files" />
+        <translation language="11" text="Recuperando arquivos da cópia de segurança" />
+        <translation language="1038" text="Biztonsági másolatok visszaállítása" />
+        <translation language="3" text="Restaurando copias de seguridad" />
+        <translation language="16" text="Восстановление резервных копий" />
+        <translation language="31" text="Backup bestanden worden hersteld" />
+        <translation language="45" text="Gendanner backup-filer" />
+        <translation language="12" text="Видалення резервних файлів" />
+        <translation language="86" text="正在恢复备份文件" />
+        <translation language="1000" text="Rememorare file de salvare" />
+        <translation language="15" text="Fjerner backup filer" />
+        <translation language="9" text="Odebírám záložní soubory" />
+        <translation language="8" text="Odstraňujem záložné súbory" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="68" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="248" y="212" height="15" width="330" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Removing standard files" />
+        <translation language="2" text="Poistetataan normaaleja tiedostoja" />
+        <translation language="5" text="Suppression des fichiers standard" />
+        <translation language="4" text="Löschen von standard files" />
+        <translation language="11" text="Removendo arquivos da aplicação" />
+        <translation language="1038" text="Szokásos fájlok eltávolítása" />
+        <translation language="3" text="Removiendo ficheros estándar" />
+        <translation language="16" text="Удаление файлов" />
+        <translation language="31" text="Bestanden worden verwijderd" />
+        <translation language="45" text="Fjerner filer" />
+        <translation language="12" text="Видалення стандартних файлів" />
+        <translation language="86" text="正在删除标准文件" />
+        <translation language="1000" text="Stergere file standard" />
+        <translation language="15" text="Fjerner programfiler" />
+        <translation language="9" text="Odebírám standardní soubory" />
+        <translation language="8" text="Odstraňujem štandardné súbory" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="69" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="248" y="251" height="15" width="330" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Removing directories" />
+        <translation language="2" text="Poistetaan hakemistoja" />
+        <translation language="5" text="Suppression des répertoires" />
+        <translation language="4" text="Löschen von ordner" />
+        <translation language="11" text="Removendo pastas" />
+        <translation language="1038" text="Mappák eltávolítása" />
+        <translation language="3" text="Removiendo directorios" />
+        <translation language="16" text="Удаление каталогов" />
+        <translation language="31" text="Mappen worden verwijderd" />
+        <translation language="45" text="Fjerner biblioteker" />
+        <translation language="12" text="Видалення папок" />
+        <translation language="86" text="正在删除目录" />
+        <translation language="1000" text="Stergere directoare" />
+        <translation language="15" text="Fjerner biblioteker" />
+        <translation language="9" text="Odebírám složky" />
+        <translation language="8" text="Odstraňujem adresáre" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="70" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="248" y="289" height="15" width="330" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Removing registry entries" />
+        <translation language="2" text="Poistetaan rekisteritietueita" />
+        <translation language="5" text="Suppression des entrées registre" />
+        <translation language="4" text="Löschen von registry entries" />
+        <translation language="11" text="Removendo entradas do registros" />
+        <translation language="1038" text="Rendszerleíró adatbázis-bejegyzések eltávolítása" />
+        <translation language="3" text="Removiendo entradas del registro" />
+        <translation language="16" text="Удаление записей из системного реестра" />
+        <translation language="31" text="Register onderdelen woden verwijderd" />
+        <translation language="45" text="Fjerner registreringsdatabase nøgler" />
+        <translation language="12" text="Видалення записів реєстру" />
+        <translation language="86" text="正在删除注册表条目" />
+        <translation language="1000" text="Stergere intrari registrii" />
+        <translation language="15" text="Fjerner registreringsdatabase ændringer" />
+        <translation language="9" text="Odebírám položky registru" />
+        <translation language="8" text="Odstraňujem zápisy z registrov" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="71" extra-flags="1" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="200" y="332" height="15" width="400" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Uninstallation complete." />
+        <translation language="2" text="Ohjelman poisto on valmis." />
+        <translation language="5" text="Désinstallation achevée." />
+        <translation language="4" text="Deinstallation erfolgreich abgeschlossen" />
+        <translation language="11" text="Desinstalação completa." />
+        <translation language="1038" text="Az eltávolítás befejeződött." />
+        <translation language="3" text="Desinstalación completada." />
+        <translation language="16" text="Удаление успешно завершено." />
+        <translation language="31" text="De-installatie is geslaagd" />
+        <translation language="45" text="Afinstallation færdig" />
+        <translation language="12" text="Видалення завершене." />
+        <translation language="86" text="卸载完成." />
+        <translation language="1000" text="Dezinstalare completa." />
+        <translation language="15" text="Afinstallering færdig." />
+        <translation language="9" text="Odinstalace je dokončena." />
+        <translation language="8" text="Odinštalácia kompletná." />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="72" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="200" y="349" height="15" width="400" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Some elements couldn't be removed." />
+        <translation language="2" text="Joitain elementtejä ei saatu poistettua." />
+        <translation language="5" text="Certains éléments ne peuvent être supprimés." />
+        <translation language="4" text="Einige Elemente konnten nicht gelöscht werden" />
+        <translation language="11" text="Alguns itens não puderam ser removidos" />
+        <translation language="1038" text="Néhány elemet nem lehetett eltávolítani." />
+        <translation language="3" text="Algunos elementos no pudieron ser removidos." />
+        <translation language="16" text="Некоторые элементы не были удалены." />
+        <translation language="31" text="Sommige onderdelen konden niet worden verwijderd" />
+        <translation language="45" text="Nogle komponenter kunne ikke fjernes" />
+        <translation language="12" text="Деякі елементи можуть залишитися невидаленими." />
+        <translation language="86" text="某些部分不能删除." />
+        <translation language="1000" text="Unele elemente nu au putut fi sterse." />
+        <translation language="15" text="Nogle elementer kunne ikke fjernes" />
+        <translation language="9" text="Některé soubory nebyly odebrány, odstraňte je ručně." />
+        <translation language="8" text="Niektoré elementy nemohli byť odstránené..." />
+      </text>
+    </control>
+  </controls>
+</dialog>

@@ -1,0 +1,36 @@
+CPPFILES = $(SRCBASE)/main.cpp \
+           $(SRCBASE)/CSdlApp.cpp \
+           $(SRCBASE)/CSdlSound.cpp \
+           $(SRCBASE)/CSdlThiefs.cpp \
+           $(SRCBASE)/COpenGL.cpp \
+           $(SRCBASE)/CVectorObject.cpp \
+           $(SRCBASE)/CPolylineObject.cpp \
+           $(SRCBASE)/CBoundingObject.cpp \
+           $(SRCBASE)/CVectorShape.cpp \
+           $(SRCBASE)/SShapeParams.cpp \
+           $(SRCBASE)/CGame_Read.cpp \
+           $(SRCBASE)/CVectorUnit.cpp \
+           $(SRCBASE)/CPlayerUnit.cpp \
+           $(SRCBASE)/CEnemyUnit.cpp \
+           $(SRCBASE)/CBaitUnit.cpp \
+           $(SRCBASE)/CVectorShot.cpp \
+           $(SRCBASE)/CExplosion.cpp \
+           $(SRCBASE)/CDebrisUnit.cpp \
+           $(SRCBASE)/CSaveScreenGL.cpp \
+           $(LIBBASE)/CFileIO.cpp \
+           $(LIBBASE)/CStringTool.cpp \
+           $(LIBBASE)/CRandom.cpp \
+           $(LIBBASE)/CGL_Texture.cpp \
+           $(LIBBASE)/CGL_Patch2d.cpp \
+           $(LIBBASE)/CGraflib.cpp \
+           $(LIBBASE)/CGraflibPng.cpp \
+           $(LIBBASE)/CGraflibTga.cpp \
+           $(LIBBASE)/GlobalDebug.cpp \
+           $(LIBBASE)/CPixel24.cpp \
+           $(LIBBASE)/CPixel32.cpp \
+           $(LIBBASE)/CKeymap.cpp \
+           $(LIBBASE)/GSystemFunctions.cpp \
+           ./src/2.0/CGL_FramebufferObject.cpp \
+           ./src/2.0/NGLprimitives.cpp \
+           ./src/2.0/shaders/CGL_NGO_Shader.cpp \
+           ./src/2.0/shaders/CGL_NGO_BlurShader.cpp

@@ -1,0 +1,5 @@
+class CG3DResourceClass
+{
+
+
+}

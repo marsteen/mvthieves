@@ -1,0 +1,67 @@
+﻿<dialog style-ex="0" id="12" version="1" style="-1865938816" flags="0">
+  <variables />
+  <font size="8" name="MS Sans Serif" flags="0" />
+  <position x="0" y="0" index="4" height="476" width="640" />
+  <text associated-string-id="144" />
+  <controls>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="51" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="C:\MinGW\home\Martin\thiefs\Daten\win-installer\installer.bmp">
+      <position x="0" y="0" height="412" width="639" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Label" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="59" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="button bottom.bmp">
+      <position x="0" y="411" height="48" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="3" extra-flags="0" style="1476460544" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="337" y="421" height="23" width="75" />
+      <text associated-string-id="0" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="1" extra-flags="0" style="1342242817" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="419" y="421" height="23" width="75" />
+      <text associated-string-id="4" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="2" extra-flags="0" style="1476460544" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="544" y="421" height="23" width="78" />
+      <text associated-string-id="2" />
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="10" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="40" y="23" height="28" width="565" />
+      <text associated-string-id="146" />
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="12" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="236" y="321" height="40" width="400" />
+      <text associated-string-id="153" />
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="54" extra-flags="1" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="18" y="5" height="15" width="160" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Finished" />
+        <translation language="31" text="Setup gereed" />
+        <translation language="2" text="Valmis" />
+        <translation language="5" text="Fin de l'installation" />
+        <translation language="4" text="Setup abgeschlossen" />
+        <translation language="10" text="Τέλος" />
+        <translation language="1038" text="Befejezés" />
+        <translation language="6" text="Operazione completata" />
+        <translation language="1045" text="Zakończenie" />
+        <translation language="11" text="Concluído" />
+        <translation language="14" text="Zavrsetak" />
+        <translation language="3" text="Finalizado" />
+        <translation language="46" text="Slutförd" />
+        <translation language="102" text="Tamamlandı" />
+        <translation language="12" text="Завершення" />
+        <translation language="16" text="Завершение установки" />
+        <translation language="45" text="Installation færdig" />
+        <translation language="86" text="完成" />
+        <translation language="1000" text="Finalizare" />
+        <translation language="15" text="Installation færdig" />
+        <translation language="9" text="Dokončení" />
+        <translation language="8" text="Dokončení" />
+      </text>
+    </control>
+  </controls>
+</dialog>

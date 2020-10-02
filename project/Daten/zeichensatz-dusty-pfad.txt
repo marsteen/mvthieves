@@ -1,0 +1,153 @@
+#
+#
+#
+#
+OBJECT	zA
+POLY
+SVG	97.878869,144.79308 L 89.345536,144.79308 L 89.345536,153.32642 L 80.812202,153.32642 L 80.812202,131.99308 L 102.14554,131.99308 L 102.14554,153.32642
+SVG	97.878869,153.32642 L 97.878869,144.79308 
+END	POLY
+POLY
+SVG	97.878869,140.52642 L 97.878869,136.25975 L 89.345536,136.25975 L 89.345536,140.52642 L 97.878869,140.52642
+END	POLY
+END	OBJECT
+#
+#
+#
+OBJECT	zB
+POLY
+SVG	163.58057,144.79308 L 155.04723,144.79308 L 155.04723,149.05975 L 163.58057,149.05975 L 163.58057,144.79308 
+END	POLY
+POLY
+SVG 165.7139,142.65975 L 167.84723,144.79308
+END	POLY
+POLY
+SVG 167.84723,153.32642 L 146.5139,153.32642 L 146.5139,131.99308 L 167.84723,131.99308 L 167.84723,140.52642 L 165.7139,142.65975 M 163.58057,140.52642 L 163.58057,136.25975
+SVG	155.04723,136.25975 L 155.04723,140.52642 L 163.58057,140.52642
+END	POLY
+END	OBJECT
+#
+#
+#
+OBJECT	zD
+POLY
+SVG	  294.98399,136.25975 L 286.45066,136.25975 L 286.45066,149.05975 L 294.98399,149.05975 L 294.98399,136.25975 
+END	POLY
+POLY
+SVG	299.25066,136.25975 L 299.25066,149.05975
+SVG	294.98399,153.32642 L 277.91733,153.32642 L 277.91733,131.99308 L 294.98399,131.99308 L 299.25066,136.25975
+END	POLY
+END	OBJECT
+#
+#
+#
+OBJECT	zE
+POLY
+SVG	364.95238,140.52642 L 364.95238,144.79308 L 352.15238,144.79308 L 352.15238,149.05975 L 364.95238,149.05975 L 364.95238,153.32642 L 343.61905,153.32642
+SVG	343.61905,131.99308 L 364.95238,131.99308 L 364.95238,136.25975 L 352.15238,136.25975 L 352.15238,140.52642 L 364.95238,140.52642
+END	POLY
+END	OBJECT
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 102.1204,203.60968 L 102.1204,207.87635 L 89.320397,207.87635 L 89.320397,216.40968 L 80.787064,216.40968 L 80.787064,195.07635 L 102.1204,195.07635 L
+SVG	  102.1204,199.34302 L 89.320397,199.34302 L 89.320397,203.60968 L 102.1204,203.60968"
+       id="text2435" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 159.28875,203.60968 L 167.82209,203.60968 L 167.82209,216.40968 L 146.48875,216.40968 L 146.48875,195.07635 L 167.82209,195.07635 L 167.82209,199.34302 L 
+SVG	 155.02209,199.34302 L 155.02209,212.14302 L 163.55542,212.14302 L 163.55542,207.87635 L 159.28875,207.87635 L 159.28875,203.60968"
+       id="text2439" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 212.19044,195.07635 L 220.72378,195.07635 L 220.72378,203.60968 L 229.25711,203.60968 L 229.25711,195.07635 L 233.52378,195.07635 L 233.52378,216.40968 L 
+SVG	 229.25711,216.40968 L 229.25711,207.87635 L 220.72378,207.87635 L 220.72378,216.40968 L 212.19044,216.40968 L 212.19044,195.07635"
+       id="text2443" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 277.89215,195.07635 L 286.42548,195.07635 L 286.42548,216.40968 L 277.89215,216.40968 L 277.89215,195.07635"
+       id="text2447" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 356.3939,212.14302 L 356.3939,195.07635 L 364.92724,195.07635 L 364.92724,216.40968 L 343.5939,216.40968 L 343.5939,212.14302 L 356.3939,212.14302"
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 102.12039,279.49307 L 97.853723,279.49307 L 97.853723,270.95974 L 89.320389,270.95974 L 89.320389,279.49307 L 80.787056,279.49307 L 80.787056,258.15974 L
+SVG	  89.320389,258.15974 L 89.320389,266.69307 L 97.853723,266.69307 L 97.853723,258.15974 L 102.12039,258.15974 L 102.12039,266.69307 L 99.987056,268.82641 L
+SVG	  102.12039,270.95974 L 102.12039,279.49307"
+       id="text2455" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 155.02209,275.22641 L 155.02209,258.15974 L 146.48875,258.15974 L 146.48875,279.49307 L 167.82209,279.49307 L 167.82209,275.22641 L 155.02209,275.22641"
+SVG	        id="text2459" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 237.79046,258.15974 L 237.79046,279.49307 L 233.52379,279.49307 L 233.52379,262.42641 L 229.25713,262.42641 L 229.25713,279.49307 L 224.99046,279.49307 L
+SVG	  224.99046,262.42641 L 220.72379,262.42641 L 220.72379,279.49307 L 212.19046,279.49307 L 212.19046,258.15974 L 237.79046,258.15974"
+       id="text2463" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 294.95885,275.22641 L 299.22551,275.22641 L 299.22551,258.15974 L 303.49218,258.15974 L 303.49218,279.49307 L 290.69218,279.49307 L 290.69218,262.42641 L
+SVG	  286.42551,262.42641 L 286.42551,279.49307 L 277.89218,279.49307 L 277.89218,258.15974 L 294.95885,258.15974 L 294.95885,275.22641"
+       id="text2467" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 343.59387,279.49307 L 343.59387,258.15974 L 364.92721,258.15974 L 364.92721,279.49307 L 343.59387,279.49307 M 360.66054,275.22641 L 360.66054,262.42641 L
+SVG	  352.12721,262.42641 L 352.12721,275.22641 L 360.66054,275.22641"
+       id="text2471" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 97.853723,329.77645 L 97.853723,325.50978 L 89.320389,325.50978 L 89.320389,329.77645 L 97.853723,329.77645 M 102.12039,334.04311 L 89.320389,334.04311 L
+SVG	  89.320389,342.57645 L 80.787056,342.57645 L 80.787056,321.24311 L 102.12039,321.24311 L 102.12039,334.04311"
+       id="text2475" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 163.55542,338.30978 L 163.55542,325.50978 L 155.02209,325.50978 L 155.02209,338.30978 L 163.55542,338.30978 M 163.55542,342.57645 L 163.55542,346.84311 L
+SVG	  159.28875,346.84311 L 159.28875,342.57645 L 146.48875,342.57645 L 146.48875,321.24311 L 167.82209,321.24311 L 167.82209,342.57645 L 163.55542,342.57645"
+       id="text2479" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 229.25713,329.77645 L 229.25713,325.50978 L 220.72379,325.50978 L 220.72379,329.77645 L 229.25713,329.77645 M 233.52379,342.57645 L 229.25713,342.57645 L
+SVG	  229.25713,334.04311 L 220.72379,334.04311 L 220.72379,342.57645 L 212.19046,342.57645 L 212.19046,321.24311 L 233.52379,321.24311 L 233.52379,329.77645 L
+SVG	  231.39046,331.90978 L 233.52379,334.04311 L 233.52379,342.57645"
+       id="text2483" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 299.22548,342.57645 L 277.89215,342.57645 L 277.89215,338.30978 L 294.95882,338.30978 L 294.95882,334.04311 L 277.89215,334.04311 L 277.89215,321.24311 L
+SVG	  299.22548,321.24311 L 299.22548,325.50978 L 286.42548,325.50978 L 286.42548,329.77645 L 299.22548,329.77645 L 299.22548,342.57645"
+       id="text2487" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 343.59387,321.24311 L 360.66054,321.24311 L 360.66054,325.50978 L 356.39387,325.50978 L 356.39387,342.57645 L 347.86054,342.57645 L 347.86054,325.50978 L
+SVG	  343.59387,325.50978 L 343.59387,321.24311"
+       id="text2491" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 79.358482,405.65976 L 100.69182,405.65976 L 100.69182,384.32643 L 96.425149,384.32643 L 96.425149,401.39309 L 87.891816,401.39309 L 87.891816,384.32643 L
+SVG	  79.358482,384.32643 L 79.358482,405.65976"
+       id="text2495" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 145.06018,401.39309 L 145.06018,384.32643 L 153.59351,384.32643 L 153.59351,401.39309 L 162.12685,401.39309 L 162.12685,384.32643 L 166.39351,384.32643 L
+SVG	  166.39351,401.39309 L 162.12685,405.65976 L 149.32685,405.65976 L 145.06018,401.39309"
+       id="text2499" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 236.36189,405.65976 L 236.36189,384.32643 L 232.09522,384.32643 L 232.09522,401.39309 L 227.82855,401.39309 L 227.82855,384.32643 L 223.56189,384.32643 L
+SVG	  223.56189,401.39309 L 219.29522,401.39309 L 219.29522,384.32643 L 210.76189,384.32643 L 210.76189,405.65976 L 236.36189,405.65976"
+       id="text2503" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 276.46359,384.32643 L 284.99693,384.32643 L 284.99693,392.85976 L 293.53026,392.85976 L 293.53026,384.32643 L 297.79693,384.32643 L 297.79693,392.85976 L
+SVG	  295.66359,394.99309 L 297.79693,397.12643 L 297.79693,405.65976 L 293.53026,405.65976 L 293.53026,397.12643 L 284.99693,397.12643 L 284.99693,405.65976 L 
+SVG	 276.46359,405.65976 L 276.46359,397.12643 L 278.59693,394.99309 L 276.46359,392.85976 L 276.46359,384.32643"
+       id="text2507" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 359.23198,392.85976 L 359.23198,384.32643 L 363.49865,384.32643 L 363.49865,397.12643 L 359.23198,397.12643 L 359.23198,405.65976 L 350.69865,405.65976 L
+SVG	  350.69865,397.12643 L 342.16531,397.12643 L 342.16531,384.32643 L 350.69865,384.32643 L 350.69865,392.85976 L 359.23198,392.85976"
+       id="text2511" />
+    <path
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter"
+SVG	        d="M 102.12039,464.47647 L 102.12039,468.74313 L 80.787056,468.74313 L 80.787056,455.94313 L 97.853723,455.94313 L 97.853723,451.67647 L 80.787056,451.67647 L
+SVG	  80.787056,447.4098 L 102.12039,447.4098 L 102.12039,460.2098 L 89.320389,460.2098 L 89.320389,464.47647 L 102.12039,464.47647"
+       id="text2515" />
+

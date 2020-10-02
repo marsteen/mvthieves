@@ -1,0 +1,38 @@
+#include <cstdio>
+#include <cstring>
+#include <GSystemFunctions.h>
+
+static char sAppPath[256];
+
+// ---------------------------------------------------------------------------
+//
+// KLASSE        : global
+// METHODE       : GsysSetAppPath
+//
+//
+//
+// ---------------------------------------------------------------------------
+
+void GsysSetAppPath(const char* Path)
+{
+    strcpy(sAppPath, Path);
+}
+
+
+// ---------------------------------------------------------------------------
+//
+// KLASSE        : global
+// METHODE       : GsysPath
+//
+//
+//
+// ---------------------------------------------------------------------------
+
+const char* GsysPath(const char* Filename)
+{
+    static char FullPath[256];
+
+    //sprintf(FullPath, "%s%c%s", sAppPath, GsysPathDiv(), Filename);
+    sprintf(FullPath, "%s", Filename);
+    return FullPath;
+}

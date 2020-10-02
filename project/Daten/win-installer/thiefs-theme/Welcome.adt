@@ -1,0 +1,79 @@
+﻿<dialog style-ex="0" id="2" version="1" style="-1865938816" flags="0">
+  <variables />
+  <font size="8" name="MS Sans Serif" flags="0" />
+  <position x="0" y="0" index="4" height="476" width="640" />
+  <text associated-string-id="12" />
+  <controls>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="51" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="C:\MinGW\home\Martin\thiefs\Daten\win-installer\installer.bmp">
+      <position x="0" y="0" height="412" width="639" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Label" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="59" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="button bottom.bmp">
+      <position x="0" y="411" height="48" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="3" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="337" y="421" height="23" width="75" />
+      <text associated-string-id="0" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="1" extra-flags="0" style="1342242817" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="419" y="421" height="23" width="75" />
+      <text associated-string-id="4" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="2" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="544" y="421" height="23" width="78" />
+      <text associated-string-id="2" />
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="10" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="40" y="23" height="30" width="559" />
+      <text associated-string-id="13" />
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="55" extra-flags="1" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="18" y="5" height="15" width="171" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Welcome" />
+        <translation language="2" text="Tervetuloa" />
+        <translation language="3" text="Bienvenido" />
+        <translation language="1045" text="Witaj" />
+        <translation language="4" text="Willkommen" />
+        <translation language="5" text="Accueil" />
+        <translation language="6" text="Benvenuti" />
+        <translation language="46" text="Välkommen" />
+        <translation language="102" text="Hoşgeldiniz" />
+        <translation language="31" text="Welkom" />
+        <translation language="10" text="Καλώς ήρθατε" />
+        <translation language="1038" text="Üdvözlet" />
+        <translation language="11" text="Bem-vindo" />
+        <translation language="12" text="Запрошуємо" />
+        <translation language="14" text="Dobrodosli" />
+        <translation language="16" text="Добро пожаловать" />
+        <translation language="45" text="Velkommen" />
+        <translation language="86" text="欢迎" />
+        <translation language="1000" text="Bine ati venit" />
+        <translation language="15" text="Velkommen" />
+        <translation language="9" text="Uvítání" />
+        <translation language="8" text="Vitajte" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="12" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="216" y="306" height="50" width="400" />
+      <text associated-string-id="15" />
+    </control>
+    <control style-ex="0" color="#6464aa" type="static" id="56" extra-flags="0" style="1342177280" sub-type="0" bk-color="#cccddb" flags="0" image="">
+      <position x="98" y="424" height="15" width="81" />
+      <text associated-string-id="-1">
+        <translation language="1" text="hyperlink: text=&quot;Thraex Software&quot; link=&quot;http://www.thraexsoftware.com&quot;" />
+      </text>
+    </control>
+    <control style-ex="0" color="#787878" type="static" id="57" extra-flags="0" style="1342177280" sub-type="0" bk-color="#cccddb" flags="0" image="">
+      <position x="8" y="424" height="15" width="90" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Astrum Installer by" />
+      </text>
+    </control>
+  </controls>
+</dialog>

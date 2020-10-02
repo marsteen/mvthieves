@@ -1,0 +1,131 @@
+﻿<dialog style-ex="0" id="4" version="1" style="-1865938816" flags="0">
+  <variables />
+  <font size="8" name="MS Sans Serif" flags="0" />
+  <position x="0" y="0" index="4" height="476" width="640" />
+  <text associated-string-id="22" />
+  <controls>
+    <control style-ex="0" color="#ffffff" type="static" id="58" extra-flags="0" style="1342177280" sub-type="2" bk-color="#3d66ab" flags="0" image="">
+      <position x="164" y="62" height="349" width="472" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="53" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="main image.bmp">
+      <position x="0" y="62" height="349" width="164" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="59" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="button bottom.bmp">
+      <position x="0" y="411" height="48" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="3" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="337" y="421" height="23" width="75" />
+      <text associated-string-id="0" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="1" extra-flags="0" style="1342242817" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="419" y="421" height="23" width="75" />
+      <text associated-string-id="4" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="2" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="544" y="421" height="23" width="78" />
+      <text associated-string-id="2" />
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="51" extra-flags="0" style="1342177280" sub-type="2" bk-color="#003370" flags="0" image="">
+      <position x="0" y="0" height="61" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="52" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="horizontal line.bmp">
+      <position x="0" y="60" height="2" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Static" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="60" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="vertical line.bmp">
+      <position x="176" y="90" height="290" width="1" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Static" />
+      </text>
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="richedit" id="10" extra-flags="0" style="1344276548" sub-type="0" bk-color="#ffffff" flags="0" image="">
+      <position x="200" y="97" height="220" width="415" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="100" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="218" y="421" height="23" width="75" />
+      <text associated-string-id="-1">
+        <translation language="31" text="&amp;Print..." />
+        <translation language="1" text="&amp;Print..." />
+        <translation language="2" text="T&amp;ulosta..." />
+        <translation language="5" text="&amp;Imprimer..." />
+        <translation language="4" text="&amp;Ausdruck..." />
+        <translation language="10" text="&amp;Print..." />
+        <translation language="1038" text="&amp;Print..." />
+        <translation language="6" text="&amp;Stampate..." />
+        <translation language="1045" text="&amp;Print..." />
+        <translation language="11" text="&amp;Imprimir..." />
+        <translation language="14" text="P&amp;rint..." />
+        <translation language="3" text="&amp;Imprime..." />
+        <translation language="46" text="&amp;Utmat..." />
+        <translation language="102" text="P&amp;rint..." />
+        <translation language="12" text="&amp;Print..." />
+        <translation language="86" text="打印(&amp;P)..." />
+        <translation language="15" text="&amp;Udskriv..." />
+        <translation language="9" text="&amp;Tisk..." />
+        <translation language="8" text="&amp;Tlačiť..." />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="55" extra-flags="1" style="1342177280" sub-type="0" bk-color="#003370" flags="0" image="">
+      <position x="18" y="5" height="15" width="171" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Readme" />
+        <translation language="2" text="Lue minut" />
+        <translation language="3" text="Notes Importantes" />
+        <translation language="1045" text="Informacje o instalowanym programie" />
+        <translation language="6" text="Leggimi" />
+        <translation language="46" text="Viktigt" />
+        <translation language="10" text="Οδηγίες" />
+        <translation language="1038" text="OlvassEl" />
+        <translation language="11" text="Leia-me" />
+        <translation language="12" text="Прочитайте" />
+        <translation language="14" text="Procitaj me" />
+        <translation language="16" text="Прочитайте информацию" />
+        <translation language="45" text="Læs-mig" />
+        <translation language="86" text="自述说明" />
+        <translation language="1000" text="Cititi" />
+        <translation language="15" text="Læs-mig" />
+        <translation language="8" text="Čítaj " />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="56" extra-flags="0" style="1342177280" sub-type="0" bk-color="#003370" flags="0" image="">
+      <position x="40" y="23" height="29" width="565" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Please read the following Information." />
+        <translation language="2" text="Ole hyvä ja lue seuraavat tiedot." />
+        <translation language="3" text="Por favor lea cuidadosamente la siguiente información." />
+        <translation language="1045" text="Proszę przeczytać poniższą informacje." />
+        <translation language="4" text="Bitte lesen Sie die folgende information." />
+        <translation language="5" text="S'il vous plaît lire l'accord d'information suivant." />
+        <translation language="6" text="Si prega di leggere il seguente leggimi." />
+        <translation language="46" text="Var god läs följande information" />
+        <translation language="10" text="Please read the following information." />
+        <translation language="1038" text="Olvassa el az alábbi tájékoztatót." />
+        <translation language="11" text="Por favor, leia as informacões abaixo:" />
+        <translation language="12" text="Будь ласка прочитайте наступну інформацію." />
+        <translation language="45" text="Læs venligst den følgende information." />
+        <translation language="86" text="请阅读以下信息." />
+        <translation language="1000" text="Va rugam cititi urmatoarele informatii :" />
+        <translation language="15" text="Læs venligst den følgende information" />
+        <translation language="9" text="Prosím, čtěte následující informace." />
+        <translation language="8" text="Prosím prečítajte si nasledujúce informácie." />
+      </text>
+    </control>
+  </controls>
+</dialog>

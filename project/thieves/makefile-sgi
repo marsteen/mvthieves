@@ -1,0 +1,110 @@
+#**********************************************************************
+#
+# chromawaves - makefile
+#
+# written 2009 by Martin Steen
+# martin@martin-steen.de
+#
+#**********************************************************************
+#
+# C++ : Name of C++ Compiler
+#
+#
+# INCGL   : where OpenGL include files are
+# INCNEKO : where the Nekoware include files are
+# LIBNEKO : where the Nekoware libs are
+#
+INCGL     = /usr/include/GL
+INCNEKO   = /usr/nekoware/include
+LIBNEKO   = /usr/nekoware/lib
+#
+#
+INCPATH       = ../include
+LIBBASE       = ../lib
+IRIXLIBS      = ../lib/irix
+SRCBASE       = ./src
+#
+#
+#
+.SUFFIXES : .c .cpp .o
+#
+#
+#
+CPPFILES = $(SRCBASE)/main.cpp \
+           $(SRCBASE)/CSdlApp.cpp \
+           $(SRCBASE)/CSdlSound.cpp \
+           $(SRCBASE)/CSdlThiefs.cpp \
+           $(SRCBASE)/COpenGL.cpp \
+           $(SRCBASE)/CDebrisUnit.cpp \
+           $(SRCBASE)/CVectorObject.cpp \
+           $(SRCBASE)/CPolylineObject.cpp \
+           $(SRCBASE)/CBoundingObject.cpp \
+           $(SRCBASE)/CVectorShape.cpp \
+           $(SRCBASE)/SShapeParams.cpp \
+           $(SRCBASE)/CGame_Read.cpp \
+           $(SRCBASE)/CVectorUnit.cpp \
+           $(SRCBASE)/CPlayerUnit.cpp \
+           $(SRCBASE)/CEnemyUnit.cpp \
+           $(SRCBASE)/CVectorShot.cpp \
+           $(SRCBASE)/CExplosion.cpp \
+           $(SRCBASE)/CBaitUnit.cpp \
+           $(LIBBASE)/CFileIO.cpp \
+           $(LIBBASE)/CStringTool.cpp \
+           $(LIBBASE)/CRandom.cpp \
+           $(LIBBASE)/CGL_Texture.cpp \
+           $(LIBBASE)/CGL_Patch2d.cpp \
+           $(LIBBASE)/CGraflib.cpp \
+           $(LIBBASE)/CGraflibPng.cpp \
+           $(LIBBASE)/CGraflibTga.cpp \
+           $(LIBBASE)/GlobalDebug.cpp \
+           $(LIBBASE)/CPixel24.cpp
+
+
+
+#************************************************************
+#
+# Liste der C SourceFiles
+#
+CFILES = $(LIBBASE)/PnglibInterface.c
+
+#
+# Warnings that we dont want: 3970
+#
+WDONT = -woff 3970,3968
+#
+CCFLAGS = -O2 -I$(INCPATH) -I$(INCGL) -I$(INCNEKO) -L$(IRIXLIBS) -L$(LIBNEKO) $(WDONT)
+#
+TARGET   = thiefs
+#
+default : $(TARGET)
+#
+#
+.cpp.o:
+	$(C++) -c $(CCFLAGS) -o$@ $<
+#
+#
+.c.o:
+	$(CC) -c $(CCFLAGS) -o$@ $<
+#
+clean:
+	rm -fv $(SRCBASE)/*.o
+	rm -fv $(LIBBASE)/*.o
+	rm -r  $(SRCBASE)/ii_files
+	rm -r  $(LIBBASE)/ii_files
+#
+OBJECTS1 = $(CPPFILES:.cpp=.o)
+OBJECTS2 = $(CFILES:.c=.o)
+#
+#LDFLAGS = -lm -lGLU -lglut -lGL -lz -lpng
+LDFLAGS = -lpng -lz -lm -lSDL -lGL 
+
+#
+#
+#
+# Making the target binary
+#
+$(TARGET) : $(OBJECTS1) $(OBJECTS2)
+	$(C++) -o $(TARGET) $(OBJECTS1) $(OBJECTS2) $(LDFLAGS) $(CCFLAGS)
+#
+#
+

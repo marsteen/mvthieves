@@ -1,0 +1,93 @@
+﻿<dialog style-ex="0" id="11" version="1" style="-1865938816" flags="0">
+  <variables />
+  <font size="8" name="MS Sans Serif" flags="0" />
+  <position x="0" y="0" index="4" height="476" width="640" />
+  <text associated-string-id="102" />
+  <controls>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="53" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="C:\MinGW\home\Martin\thiefs\Daten\win-installer\installer.bmp">
+      <position x="0" y="0" height="412" width="639" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Label" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="59" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="button bottom.bmp">
+      <position x="0" y="411" height="48" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="3" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="337" y="421" height="23" width="75" />
+      <text associated-string-id="0" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="1" extra-flags="0" style="1342242817" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="419" y="421" height="23" width="75" />
+      <text associated-string-id="4" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="button" id="2" extra-flags="0" style="1342242816" sub-type="0" bk-color="#cccddb" flags="1" image="">
+      <position x="544" y="421" height="23" width="78" />
+      <text associated-string-id="2" />
+    </control>
+    <control style-ex="0" color="COLOR_WINDOWTEXT" type="static" id="52" extra-flags="0" style="1342177280" sub-type="4" bk-color="COLOR_BTNFACE" flags="0" image="horizontal line.bmp">
+      <position x="0" y="60" height="2" width="636" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Static" />
+      </text>
+    </control>
+    <control style-ex="512" color="COLOR_WINDOWTEXT" type="edit" id="10" extra-flags="0" style="1344276548" sub-type="0" bk-color="#ffffff" flags="0" image="">
+      <position x="200" y="110" height="235" width="415" />
+      <text associated-string-id="-1">
+        <translation language="1" text="" />
+        <translation language="16" text="" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="56" extra-flags="0" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="42" y="23" height="29" width="384" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Please read the following summary." />
+        <translation language="2" text="Ole hyvä ja lue seuraava yhteenveto." />
+        <translation language="3" text="Por favor lea cuidadosamente la siguiente resumen." />
+        <translation language="1045" text="Proszę przeczytać poniższą podsumwanie." />
+        <translation language="4" text="Bitte lesen Sie die folgende Installationszusammenfassung." />
+        <translation language="5" text="S'il vous plaît lire l'accord de résumé suivant." />
+        <translation language="6" text="Si prega di leggere il seguente sommario." />
+        <translation language="1038" text="Tekintse át az alábbi összefoglalót." />
+        <translation language="11" text="Por favor leia o resumo abaixo:" />
+        <translation language="12" text="Будь ласка прочитайте підсумкову інформацію." />
+        <translation language="45" text="Læs venligst det følgende resumé" />
+        <translation language="86" text="请阅读以下摘要." />
+        <translation language="1000" text="Va rugam cititi urmatorul continut." />
+        <translation language="15" text="Læs venligst den følgende opsamling" />
+        <translation language="9" text="Prosím, čtěte následující souhrn." />
+        <translation language="8" text="Zhrnutie inštalácie:" />
+      </text>
+    </control>
+    <control style-ex="0" color="#ffffff" type="static" id="55" extra-flags="1" style="1342177280" sub-type="0" bk-color="TRANSPARENT" flags="0" image="">
+      <position x="18" y="5" height="15" width="171" />
+      <text associated-string-id="-1">
+        <translation language="1" text="Summary" />
+        <translation language="2" text="Yhteenveto" />
+        <translation language="3" text="Resumen" />
+        <translation language="1045" text="Podsumowanie" />
+        <translation language="4" text="Kopiervorgang starten" />
+        <translation language="5" text="Résumé" />
+        <translation language="6" text="Sommario" />
+        <translation language="46" text="Sammanställning" />
+        <translation language="31" text="Het kopieren starten" />
+        <translation language="10" text="Συνοπτικά" />
+        <translation language="102" text="Özet" />
+        <translation language="1038" text="Összegzés" />
+        <translation language="11" text="Resumo" />
+        <translation language="12" text="Підсумок" />
+        <translation language="14" text="Pregled" />
+        <translation language="16" text="Информация об установке" />
+        <translation language="45" text="Installations Resumé" />
+        <translation language="86" text="摘要" />
+        <translation language="1000" text="Sumar" />
+        <translation language="15" text="Opsamling" />
+        <translation language="9" text="Souhrn" />
+        <translation language="8" text="Zhrnutie" />
+      </text>
+    </control>
+  </controls>
+</dialog>

@@ -1,0 +1,7 @@
+class CG3DResourceObject
+{
+
+
+};
+
+

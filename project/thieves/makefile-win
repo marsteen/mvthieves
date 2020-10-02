@@ -1,0 +1,96 @@
+#**********************************************************************
+#
+# thiefs - makefile
+#
+# written 2009 by Martin Steen
+# martin@martin-steen.de
+#
+#**********************************************************************
+#
+# C++ : Name of C++ Compiler
+#
+C++       = g++
+#
+#
+#
+INCPATH       = ../include
+LIBBASE       = ../lib
+SRCBASE       = ./src
+#
+#
+#
+.SUFFIXES : .c .cpp .o
+#
+#
+#
+CPPFILES = $(SRCBASE)/main.cpp \
+           $(SRCBASE)/CSdlApp.cpp \
+           $(SRCBASE)/CSdlSound.cpp \
+           $(SRCBASE)/CSdlThiefs.cpp \
+           $(SRCBASE)/COpenGL.cpp \
+           $(SRCBASE)/CVectorObject.cpp \
+           $(SRCBASE)/CPolylineObject.cpp \
+           $(SRCBASE)/CBoundingObject.cpp \
+           $(SRCBASE)/CVectorShape.cpp \
+           $(SRCBASE)/SShapeParams.cpp \
+           $(SRCBASE)/CGame_Read.cpp \
+           $(SRCBASE)/CVectorUnit.cpp \
+           $(SRCBASE)/CPlayerUnit.cpp \
+           $(SRCBASE)/CEnemyUnit.cpp \
+           $(SRCBASE)/CBaitUnit.cpp \
+           $(SRCBASE)/CVectorShot.cpp \
+           $(SRCBASE)/CExplosion.cpp \
+           $(SRCBASE)/CDebrisUnit.cpp \
+		   $(SRCBASE)/CSaveScreenGL.cpp \
+           $(LIBBASE)/CFileIO.cpp \
+           $(LIBBASE)/CStringTool.cpp \
+           $(LIBBASE)/CRandom.cpp \
+           $(LIBBASE)/CGL_Texture.cpp \
+           $(LIBBASE)/CGL_Patch2d.cpp \
+           $(LIBBASE)/CGraflib.cpp \
+           $(LIBBASE)/CGraflibTga.cpp \
+           $(LIBBASE)/GlobalDebug.cpp \
+           $(LIBBASE)/CPixel24.cpp \
+		   $(LIBBASE)/CPixel32.cpp \
+		   $(LIBBASE)/GSystemFunctions.cpp
+
+#************************************************************
+#
+# Liste der C SourceFiles
+#
+#CFILES = $(LIBBASE)/PnglibInterface.c
+
+
+
+CCFLAGS = -mwindows -O2 -m64 -I$(INCPATH)
+#
+TARGET   = thieves.exe
+#
+default : $(TARGET)
+#
+#
+.cpp.o:
+	$(C++) -c $(CCFLAGS) -o$@ $<
+#
+#
+#
+.c.o:
+	gcc -c $(CCFLAGS) -o$@ $<
+	
+#
+clean:
+	rm -fv $(OBJECTS1) $(OBJECTS2)
+#
+OBJECTS1 = $(CPPFILES:.cpp=.o)
+OBJECTS2 = $(CFILES:.c=.o)
+#
+LDFLAGS = -lm -lSDL -lopengl32 -lpng -lz
+#
+#
+# Making the target-exe
+	#
+$(TARGET) : $(OBJECTS1) $(OBJECTS2)
+	$(C++) -o $(TARGET) $(OBJECTS1) $(OBJECTS2) $(LDFLAGS) $(CCFLAGS)
+#
+#
+

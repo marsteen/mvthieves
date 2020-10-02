@@ -1,0 +1,5 @@
+#
+# If you don't have SDL, please install SDL package:
+# libsdl1.2debian
+#
+
