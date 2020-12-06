@@ -722,14 +722,16 @@ void CSdlApp::EventLoop()
                 
             case SDL_JOYAXISMOTION:
             {
+                
+                
                 mAxis0 = SDL_JoystickGetAxis(mJoystick[0], 0);
                 mAxis1 = SDL_JoystickGetAxis(mJoystick[0], 1);
                 
                 
                 float xrel = float(mAxis0) / 1000;                
                 
-                ParseKeys(SDLK_DOWN, mAxis1 >  100);
-                ParseKeys(SDLK_UP,   mAxis1 < -100);
+                ParseKeys(SDLK_DOWN, mAxis1 >  2000);
+                ParseKeys(SDLK_UP,   mAxis1 < -2000);
                    
                 
                 

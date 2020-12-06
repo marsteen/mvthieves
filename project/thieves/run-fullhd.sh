@@ -1,3 +1,3 @@
 #!/bin/sh
-./thieves -w1920x1080
+./thieves.exe -w1920x1080
 
