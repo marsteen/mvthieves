@@ -52,7 +52,7 @@ class CSdlThiefs : public CSdlApp
 
         //void ManageInterface(CGL_Mouse* Mouse);
         bool ParseKeys(SDLKey key, bool down);
-        void ParseMouseRel(int xrel, int yrel);
+        void ParseMouseRel(float xrel, float yrel);
 
         void LeftMouseButtonDown();
         void RightMouseButtonDown();

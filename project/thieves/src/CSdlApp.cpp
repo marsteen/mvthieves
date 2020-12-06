@@ -40,6 +40,8 @@ CSdlApp::CSdlApp()
 {
     mFullscreen = false;
     mMouseFaktor = 10.0;
+    mJoystick = nullptr;
+    mJoystickCount = 0;
 }
 
 // ---------------------------------------------------------------------------
@@ -422,6 +424,43 @@ void CSdlApp::InitOpenGL(int w, int h)
     mOpenGL.SetViewport(w, h);
 }
 
+// ---------------------------------------------------------------------------
+//
+// KLASSE        : CSdlThiefs
+// METHODE       : InitJoysticks
+//
+// ---------------------------------------------------------------------------
+
+void CSdlApp::InitJoysticks()
+{
+    
+    mJoystickCount = SDL_NumJoysticks();
+    if(mJoystickCount)
+    {
+        // Erzeuge Array von Joystick-Pointern        
+        mJoystick = new SDL_Joystick*[mJoystickCount];
+        
+        
+        for (int j = 0; j < mJoystickCount; j++)
+        {       
+            mJoystick[j] = SDL_JoystickOpen(j);
+            if (mJoystick[j])
+            {
+                printf("Opened Joystick 0\n");
+                printf("Name: %s\n", SDL_JoystickName(j));
+                printf("Number of Axes: %d\n", SDL_JoystickNumAxes(mJoystick[j]));
+                printf("Number of Buttons: %d\n", SDL_JoystickNumButtons(mJoystick[j]));
+                printf("Number of Balls: %d\n", SDL_JoystickNumBalls(mJoystick[j]));
+            }
+        }
+    }
+    
+
+    // Close if opened
+    //if(SDL_JoystickOpened(0))
+    //SDL_JoystickClose(joy);
+}
+
 
 // ---------------------------------------------------------------------------
 //
@@ -469,14 +508,15 @@ bool CSdlApp::InitScreen() //int xres, int yres, int Bits)
             //mYres = FirstH;
 
 
-            cout << "Setting Mode to " << FirstW << "x" << FirstH << " Bits:" << bpp << endl;
+            //cout << "Setting Mode to " << FirstW << "x" << FirstH << " Bits:" << bpp << endl;
         }
     }
     if (mXres < 1280.0)
     {
-        gGlobalScale = float(mXres) / 1280.0;
+       // gGlobalScale = float(mXres) / 1280.0;
     }
 
+    cout << "Setting Mode to " << mXres << "x" << mYres << endl;
     mDrawContext = SDL_SetVideoMode(mXres, mYres, 0, flags);
 
     if (mDrawContext == NULL)
@@ -497,6 +537,7 @@ bool CSdlApp::InitScreen() //int xres, int yres, int Bits)
         r = false;
     }
     InitGame();
+    InitJoysticks();
     //mTimer = SDL_AddTimer(100, sTimerCallback, this);
 
     return r;
@@ -575,7 +616,7 @@ void CSdlApp::MainLoop()
 //
 // ---------------------------------------------------------------------------
 
-void CSdlApp::ParseMouseRel(int xrel, int yrel)
+void CSdlApp::ParseMouseRel(float xrel, float yrel)
 {
 }
 
@@ -649,10 +690,7 @@ void CSdlApp::EventLoop()
                 if (event.button.button == SDL_BUTTON_MIDDLE)
                 {
                     ParseKeys(SDLK_DOWN, true);
-                }
-
-
-                // Handle mouse clicks here.
+                }                
                 break;
 
             case SDL_MOUSEBUTTONUP:
@@ -675,6 +713,31 @@ void CSdlApp::EventLoop()
                 exit(0);
                 //done = true;
                 break;
+                
+            case SDL_JOYBUTTONDOWN:
+                                
+                ParseKeys(SDLK_DELETE, true);
+                break;
+                
+                
+            case SDL_JOYAXISMOTION:
+            {
+                mAxis0 = SDL_JoystickGetAxis(mJoystick[0], 0);
+                mAxis1 = SDL_JoystickGetAxis(mJoystick[0], 1);
+                
+                
+                float xrel = float(mAxis0) / 1000;                
+                
+                ParseKeys(SDLK_DOWN, mAxis1 >  100);
+                ParseKeys(SDLK_UP,   mAxis1 < -100);
+                   
+                
+                
+                //ParseMouseRel(xrel, 0);
+                
+                //cout << "axis0=" << axis0 << " axis1=" << axis1 << endl;
+            }                               
+            break;
 
             default:
 

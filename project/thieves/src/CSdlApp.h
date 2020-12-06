@@ -2,6 +2,7 @@
 #define CSDLAPP_H
 
 #include <SDL/SDL.h>
+#include <SDL/SDL_joystick.h>
 
 #include <iostream>
 #include <vector>
@@ -41,21 +42,26 @@ class CSdlApp
         void DisableKeyRepeat();
         bool GetVideoModes(int* FirstW, int* FirstH, int n);
         virtual bool ParseKeys(SDLKey key, bool down);
-        virtual void ParseMouseRel(int xrel, int yrel);
+        virtual void ParseMouseRel(float xrel, float yrel);
         virtual void SetResolution(int w, int h);
 
         void InitOpenGL(int w, int h);
+        void InitJoysticks();
 
 
         void HandleUserEvents(SDL_Event* event);
 
         SDL_Surface* mDrawContext;
+        SDL_Joystick** mJoystick;
+        int mJoystickCount;
         //SDL_TimerID  mTimer;
         int mXres;
         int mYres;
         float mMouseFaktor;
         COpenGL mOpenGL;
         bool mFullscreen;
+        float mAxis0;
+        float mAxis1;
 };
 
 #endif

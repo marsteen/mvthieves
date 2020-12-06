@@ -1267,7 +1267,7 @@ bool CSdlThiefs::ShotHit(CVectorUnit* enemy, vector<CVector2<float> >* explo)
 //
 // ---------------------------------------------------------------------------
 
-void CSdlThiefs::ParseMouseRel(int xrel, int yrel)
+void CSdlThiefs::ParseMouseRel(float xrel, float yrel)
 {
     float f1 = fabs(float(xrel));
     float f2 = 1.1;
@@ -1553,6 +1553,13 @@ void CSdlThiefs::RightMouseButtonDown()
 void CSdlThiefs::GameLoop()
 {
     //cout << "CSdlThiefs::GameLoop" << endl;
+    
+    if (mJoystickCount > 0)
+    {
+        float xrel = mAxis0 / 1000;
+        ParseMouseRel(xrel, 0);
+    }
+    
 
 #ifdef USE_FB
     if (StaticFramebufferObject == NULL)
