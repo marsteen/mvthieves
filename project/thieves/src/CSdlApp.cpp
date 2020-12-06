@@ -1,3 +1,15 @@
+//------------------------------------------------------------------------------
+//
+// PROJECT : Thieves
+//
+// FILE    : CSdlApp.cpp
+//
+// VERSION : 1.0
+//
+// AUTOR   : Martin Steen
+//
+//---------------------------------------------------------------------------
+
 #include <cstdlib>
 #include <iostream>
 #include <vector>
@@ -8,8 +20,6 @@
 #include <GSystemFunctions.h>
 #include <CKeymap.h>
 #include "CSdlApp.h"
-
-
 
 extern float gGlobalLineWidth;
 extern float gGlobalScale;
@@ -31,7 +41,6 @@ CSdlApp::CSdlApp()
     mFullscreen = false;
     mMouseFaktor = 10.0;
 }
-
 
 // ---------------------------------------------------------------------------
 //
@@ -381,7 +390,7 @@ bool CSdlApp::Init()
 
     //cout << "CSdlApp::Init START" << endl;
     //cout << "SDL_GL_SetAttribute ok" << endl;
-    if (SDL_Init(SDL_INIT_AUDIO | SDL_INIT_VIDEO) < 0)
+    if (SDL_Init(SDL_INIT_AUDIO | SDL_INIT_VIDEO | SDL_INIT_JOYSTICK) < 0)
     {
         cout << "SDL konnte nicht initialisiert werden: " << SDL_GetError() << endl;
         r = false;
@@ -391,7 +400,7 @@ bool CSdlApp::Init()
 
     CKeymap::ReadMapFile("files/keymap.txt");
 
-    //cout << "Joysticks:" << SDL_NumJoysticks() << endl;
+    cout << "Joysticks:" << SDL_NumJoysticks() << endl;
 
 
 
@@ -456,8 +465,8 @@ bool CSdlApp::InitScreen() //int xres, int yres, int Bits)
         int FirstH;
         if ((GetVideoModes(&FirstW, &FirstH, 0) && mFullscreen))
         {
-            mXres = FirstW;
-            mYres = FirstH;
+            //mXres = FirstW;
+            //mYres = FirstH;
 
 
             cout << "Setting Mode to " << FirstW << "x" << FirstH << " Bits:" << bpp << endl;

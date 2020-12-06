@@ -24,16 +24,13 @@
 
 #include <iostream>
 #include <fstream>
-
-using namespace std;
-
 #include <CFileIO.h>
-
 #include <SFileReadInfo.h>
 #include <CGraflibTga.h>
 #include <CPixel24.h>
 #include <CPixel32.h>
 
+using namespace std;
 
 //---------------------------------------------------------------------------
 //
@@ -291,6 +288,7 @@ void CGraflibTga::WriteLine(void* UncompressedData)
 int CGraflibTga::WriteBytes(const unsigned char* Buffer, int Size)
 {
     mFio.WriteBytes(Buffer, Size);
+    return 1;
 }
 
 
